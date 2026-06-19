@@ -56,9 +56,10 @@ const splashes = [
 const splash = splashes[Math.floor(Math.random() * splashes.length)]
 
 const stack = [
-  { name: 'TypeScript', detail: 'Vue · React · NestJS · Hono' },
-  { name: 'C# / .NET', detail: 'Azure Functions · Bicep' },
-  { name: 'Java', detail: 'Spring Boot · JPA · PostgreSQL' },
+  { name: 'TypeScript', detail: 'Vue · Svelte · React · NestJS · Hono · Node.js' },
+  { name: 'C#', detail: '.NET · Bicep · Azure Functions' },
+  { name: 'Java', detail: 'Spring Boot · JPA' },
+  { name: 'Databases', detail: 'MongoDB · PostgreSQL' },
   { name: 'DevOps', detail: 'Cloudflare · Azure · Docker · GitLab' },
 ]
 </script>

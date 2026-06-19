@@ -6,8 +6,8 @@
 }
 
 .pixel-atai {
-  width: 180px;
-  height: auto;
+  height: 260px;
+  width: auto;
   image-rendering: pixelated;
 }
 
@@ -33,6 +33,6 @@
 
 @media (max-width: 700px) {
   .pixel-atai {
-    width: 120px;
+    height: 200px;
   }
 }

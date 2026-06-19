@@ -158,12 +158,20 @@
 @media (max-width: 700px) {
   .hero {
     grid-template-columns: 1fr;
-    padding-top: 3rem;
+    padding-top: 2rem;
     text-align: center;
   }
 
   .hero-sprite {
-    order: -1;
+    display: none;
+  }
+
+  .hero-content {
+    padding-left: 0;
+  }
+
+  .hero-splash {
+    display: none;
   }
 
   .hero-bio {
@@ -173,5 +181,9 @@
 
   .hero-cta {
     justify-content: center;
+  }
+
+  .stack-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

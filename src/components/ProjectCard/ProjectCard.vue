@@ -1,14 +1,11 @@
 <template>
   <article class="project-card">
-    <div class="card-image">
-      <img v-if="imageUrl" :src="imageUrl" :alt="title" :class="{ 'img--pixel': pixelArt }" />
-      <div v-else class="card-image-placeholder">
-        <span class="placeholder-label">IMG</span>
-        <span class="placeholder-sub">COMING SOON</span>
-      </div>
-    </div>
     <div class="card-body">
-      <h3 class="card-title">{{ title }}</h3>
+      <div class="card-header">
+        <img v-if="imageUrl" :src="imageUrl" :alt="title" class="card-icon" :class="{ 'img--pixel': pixelArt }" />
+        <div v-else class="card-icon-placeholder">?</div>
+        <h3 class="card-title">{{ title }}</h3>
+      </div>
       <p class="card-desc">{{ description }}</p>
       <div class="card-tags">
         <span v-for="tag in tags" :key="tag" class="tag">#{{ tag }}</span>

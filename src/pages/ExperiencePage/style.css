@@ -1,0 +1,106 @@
+.experience-page {
+  min-height: 80vh;
+}
+
+.exp-section {
+  margin-bottom: 3.5rem;
+}
+
+.exp-section-title {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--color-accent);
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-surface-light);
+  letter-spacing: 0.08em;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.45rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background-color: var(--color-accent);
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 1.75rem 1.5rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2rem;
+  top: 0.35rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  background-color: var(--color-accent-light);
+  border: 2px solid var(--color-bg-dark);
+  box-shadow: 0 0 0 2px var(--color-accent);
+}
+
+.timeline-content {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-surface-light);
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.timeline-content:hover {
+  border-color: var(--color-accent);
+}
+
+.timeline-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.job-company {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  color: var(--color-accent-light);
+}
+
+.job-location {
+  font-family: var(--font-pixel);
+  font-size: 0.4rem;
+  color: var(--color-text-muted);
+}
+
+.job-title {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--color-text);
+  margin: 0 0 0.4rem;
+  line-height: 1.7;
+}
+
+.job-period {
+  font-family: var(--font-pixel);
+  font-size: 0.4rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.75rem;
+}
+
+.job-desc {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.6;
+}

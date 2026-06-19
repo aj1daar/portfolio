@@ -1,0 +1,71 @@
+.certs-page {
+  min-height: 80vh;
+}
+
+.quest-log {
+  max-width: 600px;
+  margin: 3rem auto 0;
+  border: 2px solid var(--color-accent);
+  box-shadow: 6px 6px 0 var(--color-brown);
+}
+
+.quest-header {
+  background-color: var(--color-accent);
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quest-label {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  color: var(--color-text);
+  letter-spacing: 0.1em;
+}
+
+.quest-status {
+  font-family: var(--font-pixel);
+  font-size: 0.4rem;
+  color: var(--color-beige);
+  opacity: 0.75;
+}
+
+.quest-empty {
+  background-color: var(--color-surface);
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quest-icon {
+  font-family: var(--font-pixel);
+  font-size: 1.5rem;
+  color: var(--color-text-muted);
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid var(--color-surface-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 0 var(--color-surface-light);
+}
+
+.quest-message {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.9;
+}
+
+.quest-submessage {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  opacity: 0.7;
+}

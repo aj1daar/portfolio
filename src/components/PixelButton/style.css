@@ -1,0 +1,46 @@
+.pixel-btn {
+  display: inline-block;
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: box-shadow 0.08s ease, transform 0.08s ease;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.pixel-btn--primary {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  box-shadow: 4px 4px 0 var(--color-brown);
+}
+
+.pixel-btn--primary:hover {
+  box-shadow: 2px 2px 0 var(--color-brown);
+  transform: translate(2px, 2px);
+}
+
+.pixel-btn--primary:active {
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}
+
+.pixel-btn--secondary {
+  background-color: transparent;
+  color: var(--color-accent-light);
+  outline: 2px solid var(--color-accent);
+  box-shadow: 4px 4px 0 var(--color-accent);
+}
+
+.pixel-btn--secondary:hover {
+  box-shadow: 2px 2px 0 var(--color-accent);
+  transform: translate(2px, 2px);
+}
+
+.pixel-btn--secondary:active {
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}

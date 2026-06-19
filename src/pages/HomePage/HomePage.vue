@@ -3,7 +3,13 @@
     <section class="hero">
       <div class="hero-content">
         <p class="hero-greeting">Hello, I'm</p>
-        <h1 class="hero-name">Atai<br />Nogoibaev</h1>
+        <div class="hero-name-wrap">
+          <h1 class="hero-name">
+            <span class="name-first">Atai</span>
+            <span class="name-last">Nogoibaev</span>
+          </h1>
+          <span class="hero-splash">{{ splash }}</span>
+        </div>
         <p class="hero-role">Full-Stack Developer</p>
         <p class="hero-bio">
           BSc Software Engineering student at Saxion University, graduating July 2026.
@@ -36,6 +42,18 @@
 <script setup lang="ts">
 import PixelButton from '@/components/PixelButton/PixelButton.vue'
 import PixelAtai from '@/components/PixelAtai/PixelAtai.vue'
+
+const splashes = [
+  'Hire me!',
+  'I need visa...',
+  'ik hou van Nederland',
+  'nog steeds Nederlands leren',
+  "Let's connect!",
+  'from Kyrgyzstan',
+  'Guess my favorite game',
+  'Check my work!',
+]
+const splash = splashes[Math.floor(Math.random() * splashes.length)]
 
 const stack = [
   { name: 'TypeScript', detail: 'Vue · React · NestJS · Hono' },

@@ -43,6 +43,17 @@ img {
   display: block;
 }
 
+/* App shell */
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-layout > main {
+  flex: 1;
+}
+
 /* Pixel page transitions */
 .page-leave-active { animation: fade-out 0.15s steps(4, end) both; }
 .page-enter-active { animation: fade-in  0.2s  steps(5, end) both; }

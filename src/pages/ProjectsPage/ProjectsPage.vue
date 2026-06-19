@@ -22,6 +22,7 @@ const projects = [
       'A Dutch job-search helper. Automates finding and tracking job listings so you can focus on applying rather than searching.',
     tags: ['typescript', 'vue', 'cloudflare'],
     url: 'https://iwwz.nogoibay.org/',
+    imageUrl: '/images/projects/iwwz.svg',
   },
   {
     title: 'DOTA MATCH ANNOUNCER BOT',

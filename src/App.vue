@@ -1,7 +1,9 @@
 <template>
   <NavBar />
-  <main class="min-h-screen">
-    <RouterView />
+  <main>
+    <Transition name="page" mode="out-in">
+      <RouterView />
+    </Transition>
   </main>
   <AppFooter />
 </template>

@@ -19,8 +19,8 @@ const projects = [
   {
     title: 'IK WIL WERK ZOEKEN',
     description:
-      'A Dutch job-search helper. Automates finding and tracking job listings so you can focus on applying rather than searching.',
-    tags: ['typescript', 'vue', 'cloudflare'],
+      'A personal job-search tracker for Highly Skilled Migrants in the Netherlands. Browse IND-recognized sponsor companies, track your application pipeline, and manage your job-search preferences — all in one place.',
+    tags: ['typescript', 'vue', 'c#', 'cloudflare pages', 'hetzner'],
     url: 'https://iwwz.nogoibay.org/',
     imageUrl: '/images/projects/iwwz.svg',
     pixelArt: true,

@@ -21,8 +21,8 @@ onMounted(() => {
 
   viewer = new SkinViewer({
     canvas:        canvasRef.value,
-    width:         260,
-    height:        390,
+    width:         220,
+    height:        320,
     skin:          '/images/atai-skin.png',
     enableControls: false,
     fov:           40,

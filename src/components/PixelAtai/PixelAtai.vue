@@ -12,7 +12,7 @@ const wrapRef  = ref<HTMLElement>()
 const canvasRef = ref<HTMLCanvasElement>()
 let viewer: SkinViewer | null = null
 
-const BODY_TURN = 0.45   // rad (~26°), matches Bedrock main-menu pose
+const BODY_TURN = -0.45  // rad (~26°), matches Bedrock main-menu pose
 const MAX_HEAD_Y = Math.PI * 0.55  // ±99° horizontal
 const MAX_HEAD_X = Math.PI * 0.28  // ±50° vertical
 

@@ -60,19 +60,6 @@
   justify-content: center;
 }
 
-.sprite {
-  width: 180px;
-  height: auto;
-  image-rendering: pixelated;
-  animation: sprite-float 3s ease-in-out infinite;
-  filter: drop-shadow(0 10px 0 rgba(90, 138, 60, 0.25));
-}
-
-@keyframes sprite-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-14px); }
-}
-
 /* Stack */
 .stack-section {
   background-color: var(--color-surface);
@@ -134,10 +121,6 @@
 
   .hero-sprite {
     order: -1;
-  }
-
-  .sprite {
-    width: 120px;
   }
 
   .hero-bio {

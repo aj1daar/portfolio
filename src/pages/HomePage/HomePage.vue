@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="hero-sprite">
-        <img :src="spriteUrl" alt="Pixel Atai" class="sprite" />
+        <PixelAtai />
       </div>
     </section>
 
@@ -35,8 +35,7 @@
 
 <script setup lang="ts">
 import PixelButton from '@/components/PixelButton/PixelButton.vue'
-
-const spriteUrl = '/images/pixel-atai.png'
+import PixelAtai from '@/components/PixelAtai/PixelAtai.vue'
 
 const stack = [
   { name: 'TypeScript', detail: 'Vue · React · NestJS · Hono' },

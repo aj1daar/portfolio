@@ -1,0 +1,42 @@
+.pixel-atai-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: sprite-float 3s ease-in-out infinite;
+  filter: drop-shadow(0 10px 0 rgba(90, 138, 60, 0.25));
+}
+
+.pixel-atai {
+  width: 180px;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+/* Blink animation on both eye groups */
+.pixel-atai .eye-left,
+.pixel-atai .eye-right {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation: blink 4s ease-in-out infinite;
+}
+
+.pixel-atai .eye-right {
+  animation-delay: 0.06s;
+}
+
+@keyframes blink {
+  0%, 90%, 100% { transform: scaleY(1); }
+  94%, 96%      { transform: scaleY(0.08); }
+}
+
+@keyframes sprite-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-14px); }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .pixel-atai {
+    width: 120px;
+  }
+}

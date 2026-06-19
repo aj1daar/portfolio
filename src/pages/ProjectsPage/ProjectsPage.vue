@@ -23,6 +23,7 @@ const projects = [
     tags: ['typescript', 'vue', 'cloudflare'],
     url: 'https://iwwz.nogoibay.org/',
     imageUrl: '/images/projects/iwwz.svg',
+    pixelArt: true,
   },
   {
     title: 'DOTA MATCH ANNOUNCER BOT',
@@ -30,6 +31,7 @@ const projects = [
       'A Telegram bot that announces Dota 2 match results and stats in real time. Never miss a result from your favourite teams.',
     tags: ['typescript', 'telegram', 'api'],
     url: 'https://t.me/dota_match_announcer_bot',
+    imageUrl: '/images/projects/dota-bot.png',
   },
 ]
 </script>

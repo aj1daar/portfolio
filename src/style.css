@@ -40,7 +40,7 @@ a {
 }
 
 img {
-  image-rendering: pixelated;
+  display: block;
 }
 
 /* Shared page layout */

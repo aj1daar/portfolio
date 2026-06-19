@@ -1,7 +1,7 @@
 <template>
   <article class="project-card">
     <div class="card-image">
-      <img v-if="imageUrl" :src="imageUrl" :alt="title" />
+      <img v-if="imageUrl" :src="imageUrl" :alt="title" :class="{ 'img--pixel': pixelArt }" />
       <div v-else class="card-image-placeholder">
         <span class="placeholder-label">IMG</span>
         <span class="placeholder-sub">COMING SOON</span>
@@ -21,13 +21,14 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+withDefaults(defineProps<{
   title: string
   description: string
   tags: string[]
   url: string
   imageUrl?: string
-}>()
+  pixelArt?: boolean
+}>(), { pixelArt: false })
 </script>
 
 <style>

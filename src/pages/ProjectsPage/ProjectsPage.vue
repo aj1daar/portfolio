@@ -19,8 +19,8 @@ const projects = [
   {
     title: 'IK WIL WERK ZOEKEN',
     description:
-      'A personal job-search tracker for Highly Skilled Migrants in the Netherlands. Browse IND-recognized sponsor companies, track your application pipeline, and manage your job-search preferences — all in one place.',
-    tags: ['typescript', 'vue', 'c#', 'cloudflare pages', 'hetzner'],
+      'Job-search tracker for Highly Skilled Migrants in the Netherlands. Browse IND-recognized sponsors, track your application pipeline and preferences.',
+    tags: ['typescript', 'vue', 'c#', '.net', 'cloudflare pages'],
     url: 'https://iwwz.nogoibay.org/',
     imageUrl: '/images/projects/iwwz.svg',
     pixelArt: true,
@@ -28,8 +28,8 @@ const projects = [
   {
     title: 'DOTA MATCH ANNOUNCER BOT',
     description:
-      'A Telegram bot that announces Dota 2 match results and stats in real time. Never miss a result from your favourite teams.',
-    tags: ['typescript', 'telegram', 'api'],
+      'Telegram bot announcing Dota 2 match results and stats in real time. Never miss a result from your favourite teams.',
+    tags: ['typescript', 'telegram', 'api', 'cloudflare workers'],
     url: 'https://t.me/dota_match_announcer_bot',
     imageUrl: '/images/projects/dota-bot.svg',
     pixelArt: true,

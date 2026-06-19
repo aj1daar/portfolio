@@ -7,7 +7,7 @@
         aria-label="Home"
         @mouseenter="setEmotion('surprised')"
         @mouseleave="resetEmotion"
-      >A</RouterLink>
+      ><img src="/favicon.png" alt="Home" class="logo-img" /></RouterLink>
       <ul class="nav-links">
         <li v-for="link in links" :key="link.to">
           <RouterLink

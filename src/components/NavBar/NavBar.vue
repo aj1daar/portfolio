@@ -49,7 +49,7 @@ const links: { to: string; label: string; emotion: Emotion }[] = [
   { to: '/',               label: 'Home',       emotion: 'neutral'   },
   { to: '/projects',       label: 'Projects',   emotion: 'excited'   },
   { to: '/experience',     label: 'Experience', emotion: 'confident' },
-  { to: '/certifications', label: 'Certs',      emotion: 'puzzled'   },
+  { to: '/certifications', label: 'Certifications', emotion: 'puzzled'   },
   { to: '/resume',         label: 'Resume',     emotion: 'winking'   },
 ]
 </script>

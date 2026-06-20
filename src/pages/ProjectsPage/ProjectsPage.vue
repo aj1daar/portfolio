@@ -29,7 +29,7 @@ const projects = [
     title: 'DOTA MATCH ANNOUNCER BOT',
     description:
       'Telegram bot announcing Dota 2 match results and stats in real time. Never miss a result from your favourite teams.',
-    tags: ['typescript', 'telegram', 'api', 'cloudflare workers'],
+    tags: ['typescript', 'telegram', 'hono', 'cloudflare workers'],
     url: 'https://t.me/dota_match_announcer_bot',
     imageUrl: '/images/projects/dota-bot.svg',
     pixelArt: true,
